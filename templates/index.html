@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Farmer 🌾</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="card">
+    <h1>🌱 Smart Crop Recommendation</h1>
+    <p>Enter your soil & weather details</p>
+
+    <input type="number" id="N" placeholder="Nitrogen">
+    <input type="number" id="P" placeholder="Phosphorus">
+    <input type="number" id="K" placeholder="Potassium">
+    <input type="number" id="temperature" placeholder="Temperature (°C)">
+    <input type="number" id="humidity" placeholder="Humidity (%)">
+    <input type="number" id="ph" placeholder="Soil pH">
+
+    <button onclick="predictCrop()">🌾 Recommend Crop</button>
+
+    <h2 id="result"></h2>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
